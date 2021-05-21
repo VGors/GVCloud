@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainWindow" focusTraversable="true" prefHeight="249.0" prefWidth="280.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="io.ClientController">
+   <children>
+      <TreeView fx:id="serverList" focusTraversable="false" layoutX="14.0" layoutY="14.0" onDragDropped="#dragDropped" onDragOver="#dragOver" prefHeight="220.0" prefWidth="246.0" />
+      <Label layoutX="34.0" layoutY="37.0" text="Drag file here:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
